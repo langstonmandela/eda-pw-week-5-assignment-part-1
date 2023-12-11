@@ -44,10 +44,14 @@ console.log( 'Here is the last food I listed in my favThreeFoods array: ', me.fa
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
   - Guess what?! You just got a new pair of shoes!!!
-  - Set your object's shoeCount to be what it was plus 1
+  - Set your object's shoeCount to be what it was plus 1 ------ (I literally just got a couple pairs!! hence the 2, I'll take the demerit lol)
   - Console.log your updated shoe count. 
 */
 
+console.log( 'Current shoe count:', me.shoeCount );
+console.log( 'Just copped the the Billie Ellish 88, and the Torre Mid weather proof from ACG' );
+me.shoeCount += 2; // Adding 2 new pairs of shoes
+console.log( 'Updated shoe count:', me.shoeCount );
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -55,3 +59,6 @@ console.log( 'Here is the last food I listed in my favThreeFoods array: ', me.fa
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+
+me.favoriteColor = 'Green'; // Adding a new property
+console.log(me); // The string 'Green' should appear as an item listed within the 'me' object
