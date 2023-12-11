@@ -8,14 +8,17 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
+
+  // TODO - add properties here
 const me = {
   firstName: 'Langston',
+  middleName: 'Mandela',
   lastName: 'Johnson',
   hasSiblings: true,
   shoeCount: 20,
   favThreeFoods: ['Tiramisu', 'Sushi', 'French Onion Soup']
 };
-  // TODO - add properties here
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -24,6 +27,9 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
+
+let fullName = me.firstName + ' ' + me.middleName + ' ' + me.lastName; //should display Langston Mandela Johnson
+console.log(fullName);
 
 
 
